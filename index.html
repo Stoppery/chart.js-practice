@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="shortcut icon" href="/style/diploma.png" type="image/png">
+	<link rel="stylesheet" href="/style/style.css">
+	<title>My charts practice</title>
+</head>
+<body>
+    <div class="six"><h1><span>Practice for Chart.js</span></h1></div>
+    <div>
+	<canvas id="heigth" style="padding-bottom: 10vh;"></canvas>
+    <canvas id="myChart" style="padding-bottom: 10vh;"></canvas>
+    </div>
+
+    <div style="padding-top: 10vh">
+    <canvas id="middleK" style="padding-bottom: 10vh;"></canvas>
+    <canvas id="middleE" style="padding-bottom: 10vh;"></canvas>
+    <canvas id="middleN" style="padding-bottom: 10vh;"></canvas>
+    <canvas id="middleP" style="padding-bottom: 10vh;"></canvas>
+    <canvas id="middleU" style="padding-bottom: 10vh;"></canvas>
+    </div>
+    <div style="padding-top: 10vh">
+    <canvas id="years" style="padding-bottom: 10vh;"></canvas>
+    </div>
+    <footer style="margin-left: 85%; font-size: small;">
+		<p>
+			&copy; Stoppery, <br><a href="mailto:max.miromanov@yandex.ru" style="text-decoration: none;">Mail me</a>
+		</p>
+	</footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-trendline@0.2.2/src/chartjs-plugin-trendline.js"></script>
+<script src="javascript/data.js"></script>
+<script src="javascript/graph.js"></script>
+</html>
